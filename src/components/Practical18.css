@@ -1,0 +1,93 @@
+.movie-page {
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.movie-container {
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.movie-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.movie-form {
+    display: flex;
+    gap: 10px;
+    margin: 25px 0;
+}
+
+.movie-form input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.movie-form button {
+    padding: 12px 20px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.movie-form button:hover {
+    background-color: #084298;
+}
+
+.movie-container h2 {
+    margin-top: 30px;
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.movie-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 5px solid #0d6efd;
+}
+
+.movie-card h3 {
+    margin: 0 0 5px;
+}
+
+.movie-card p {
+    margin: 0;
+}
+
+.remove-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #b02a37;
+}
+
+.empty-message {
+    text-align: center;
+    color: #777;
+}

@@ -1,0 +1,38 @@
+.user-container {
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.user-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.user-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.user-card {
+    width: 280px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.user-card h3 {
+    color: #2e7d32;
+    margin-top: 0;
+}
+
+.user-card p {
+    color: #444;
+    margin: 10px 0;
+}
